@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+
+body {
+    background-color: #57A773;
+    margin: 100px
+}
+
+.navbar {
+    display: flex;
+    font-size: 20px;
+    color: #b5e48c;
+    font-family: 'Cabin', sans-serif;
+    background-color: #b5e48c;
+    height: 30px;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 15px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #5D576B;
+    text-decoration: none;
+}
+
+h1 {
+    color: #b5e48c;
+    font-size: 90%;
+    font-family:'Cabin', sans-serif;
+    font-weight:bolder;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #0D5D56;
+    font-size: 90%;
+    font-family:'Cabin', sans-serif;
+    font-weight:bold;
+    text-align: center;
+    box-sizing: border-box;
+    /* padding: 25px; */
+}
+
+h3 {
+    color: #bce784;
+    font-size: 90%;
+    font-family:'Cabin', sans-serif;
+    font-weight:bold;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* flex-flow: row wrap;  */
+    /* align-items: center;  */
+    margin:15px 10px 10px 10px;
+    align-items: center;
+}
+
+.item {
+    display:flex;
+    flex-wrap:wrap;
+    width:auto;
+    padding:0px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
+}
+
+.item2 {
+    display:flex;
+    flex-wrap:wrap;
+    width:fit-content;
+    padding:0px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  
+}
+
+.poster {
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border: 2px solid #0D5D56;
+}
